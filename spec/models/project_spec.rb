@@ -35,7 +35,7 @@ describe Project do
     end
 
     it 'has many tasks' do
-
+      expect(@project.tasks.count).to eq(2)
     end
   end
 end
